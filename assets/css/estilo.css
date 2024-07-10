@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 178px 42px;
+}
+
+a {
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 32px;
+}
+
+.button-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    width: 124px;
+    height: 51px;
+    background-color: #6FBF44;
+    border: none;
+    border-radius: 5px;
+}
+
+img {
+    width: 595px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    margin-bottom: 47px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #6FBF44;
+    text-decoration: none;
+}
+
+
+@media (max-width: 400px) {
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: static;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .button-header {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        top: 17px;
+        right: 15px
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: auto;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+    }
+
+    .link-section {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    img {
+        display: block;
+        width: 312px;
+        height: 288px;
+        margin: auto 39px;
+        position: absolute;
+        bottom: 22px;
+    }
+
+    header {
+        position: static;
+    }
+
+    a {
+        display: none;
+    }
+}
